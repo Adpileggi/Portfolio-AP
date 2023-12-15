@@ -1,0 +1,15 @@
+/* header syling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#BA55D3;
+    color:cornsilk;
+    padding: 1%;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-between;
+    min-width: 200px;   
+}
