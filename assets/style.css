@@ -2,7 +2,12 @@
     --dark: #007FAE;
     --light:cornsilk;
     --list: none;
+    --padding: 20px;
 }
+/* to make sure css boxes adjust correctlly to total dimensions of page */
+* {
+    box-sizing: border-box;
+  }
 
 /* header syling */
 header {
@@ -20,6 +25,40 @@ nav ul {
     min-width: 200px;
     list-style-type: var(--list);  
 }
+/* body styling */
+/* make a class about section */
+main {
+    display: flex;
+}
+
+main aside {
+    flex: 1;
+    padding: var(--padding)
+}
+main img {
+    flex:2;
+    min-width: 310px;
+    min-height: 250px;
+    padding: var(--padding)
+}
+
+/* work section maybe use div's */
+/* grid system */
+section{
+    display:flex;
+}
+
+section h3 {
+    flex: 1;
+    padding: var(--padding);
+}
+
+div img {
+    flex:3;
+    padding: var(--padding);
+    min-height: 225px;
+    min-width: 335px;
+}
 
 /* footer styling */
 footer {
@@ -34,4 +73,10 @@ footer ul {
     justify-content: space-evenly;
     min-width: 300px;
     list-style-type: var(--list);
+}
+
+@media screen and (max-width: 768px){
+    header, main, section {
+        flex-direction: column;
+    }
 }
