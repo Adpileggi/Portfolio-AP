@@ -14,16 +14,16 @@
             <h1>Anthony Pileggi</h1>
                 <Nav>
                     <ul>
-                        <li>About</li>
-                        <li>Work</li>
-                        <li>Concact</li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
                     </ul>
                 </Nav>
         </header>
 <!-- about -->
         <main>
             <aside>
-                <h2>About</h2>
+                <h2 id="about">About</h2>
                 <p>I'm an aspiring full stack developer currently enrolled in Penn LPS Coding Bootcamp</p>
             </aside>
                     <img src="assets/ap-profile-pic.jpg" alt="bald guy with glasses" height="25%" width="25%">
@@ -32,21 +32,38 @@
 <!-- add work examples here -->
         
             <section>
-                <h3>Work</h3>
-                <img src="assets/horiseon-pic.png" alt = "horiseon webpage" height="75%" width="75%">
+                <h3 id="work">Work</h3>
+                <!-- add titles -->
+                    <a class="feature" href="https://adpileggi.github.io/horiseon-refactor/">
+                        <figure>
+                            <img src="assets/horiseon-pic.png" alt = "horiseon webpage" width="100%" height="auto">
+                            <figcaption id="captions">horiseon refactor</figcaption>
+                        </figure>
+                    </a>
             </section>
             <div>
-                <img src="assets/prework-study-pic.png" alt="prework study guide webpage" width="50%" height="50%">
-                <img src="assets/image-2.png" alt="the number two" width="40%" height="40%">
-                <img src="assets/image-3.png" alt="the number three" width="40%" height="40%">  
+                <a class="prework" href="https://adpileggi.github.io/prework-study-guide/">
+                    <figure >
+                        <img src="assets/prework-study-pic.png" alt="prework study guide webpage" width="50%" height="auto%">
+                        <figcaption id="captions">Prework Study Guide</figcaption>
+                    </figure>
+                </a>
+                    <figure>
+                        <img src="assets/image-2.png" alt="box with number 2" width="40%" height="auto">
+                        <figcaption id="captions">Placeholder</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="assets/image-3.png" alt="box with number 3" width="40%" height="auto">
+                        <figcaption id="captions">Placeholder</figcaption>
+                    </figure>
             </div>
              
 <!-- footer with links to contacts -->
         <footer>
-            <h3>Contact</h3>
+            <h3 id="contact">Contact</h3>
             <ul>
-                <li>github</li>
-                <li>email</li>
+                <li><a href="https://github.com/Adpileggi">github</a></li>
+                <li><a href="mailto:adpileggi@gmail.com">email</a></li>
             </ul>
         </footer>
     </body>

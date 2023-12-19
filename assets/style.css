@@ -49,15 +49,30 @@ section{
 }
 
 section h3 {
-    flex: 1;
+    padding: var(--padding);
+}
+.feature {
+    min-width: 300px;
     padding: var(--padding);
 }
 
-div img {
-    flex:3;
-    padding: var(--padding);
-    min-height: 225px;
-    min-width: 335px;
+.prework {
+    min-width: 300px;
+    max-width: 40%;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+#captions {
+    position: relative;
+    bottom: 20px;
+    width: fit-content;
+    background-color: var(--dark);
+    color: var(--light)
 }
 
 /* footer styling */
