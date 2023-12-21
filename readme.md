@@ -7,7 +7,7 @@ This webpage was created to show web applications I have developed since startin
 N/A
 
 ## Usage
-When a user loads the webpage, they will see information about myself and my projects. When a user clicks on an image of an existing project, the image will link to the live webpage displayed. When the user changes the size of their browser window the layout will adjust to the size of their new browser window.
+When a user loads the [webpage](https://adpileggi.github.io/portfolio-ap/), they will see information about myself and my projects. When a user clicks on an image of an existing project, the image will link to the live webpage displayed. When the user changes the size of their browser window the layout will adjust to the size of their new browser window.
 
 ![Webpage Preview](assets/screenshot.png)
 
